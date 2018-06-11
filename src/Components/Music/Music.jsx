@@ -95,13 +95,11 @@ class Music extends Component {
 
   deleteSongFromPlaylist = index => {
     let arrayPlaylist = [...this.state.playlist];
-    console.log(arrayPlaylist);
     for (let i = 0; i < arrayPlaylist.length; i++) {
       if (i === index) {
         arrayPlaylist.splice(index, 1);
       }
     }
-    console.log(arrayPlaylist);
     this.setState({
       playlist: arrayPlaylist,
     });
@@ -112,7 +110,7 @@ class Music extends Component {
 
     return (
       <div className="containerBody">
-        <h2> Voici mes superbes chanson !! </h2>
+        <h2> Voici mes superbes chansons !! </h2>
         <Grid container spacing={24}>
           <Grid item xs={12} sm={6}>
             <Paper className={classes.paper}>
