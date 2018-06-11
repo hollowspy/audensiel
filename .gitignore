@@ -1,0 +1,4 @@
+Git Ignore sur dossier Audensiel ReactJS - Julien NIEDZWIECKI
+
+/node_modules
+package-lock.json

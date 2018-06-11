@@ -1,0 +1,18 @@
+.tableau{
+  border:2px red solid;
+  border-collapse: collapse;
+  margin:auto;
+}
+.tableau > tbody> tr > td {
+  border : 2px solid;
+  width:100vw;
+}
+
+.titre{
+  font-weight: bold;
+  color:black
+}
+
+audio{
+  margin:auto;
+}
