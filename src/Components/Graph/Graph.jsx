@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Graph.css'
 
 class DataParser extends Component {
   constructor(props) {
@@ -30,7 +31,7 @@ class DataParser extends Component {
 
   render() {
     return (
-      <div>
+      <div className="text">
         Je n'ai malheureusement pas pu faire cette page. En revanche, j'ai
         réussir à récupérer les données. C'est la raison pour laquelle, j'ai
         laissé volontairement un console.log (ligne 33).{' '}

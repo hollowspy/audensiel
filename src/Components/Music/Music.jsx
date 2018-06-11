@@ -111,7 +111,7 @@ class Music extends Component {
     const { classes } = this.props;
 
     return (
-      <div>
+      <div className="containerBody">
         <h2> Voici mes superbes chanson !! </h2>
         <Grid container spacing={24}>
           <Grid item xs={12} sm={6}>

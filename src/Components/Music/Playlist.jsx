@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Icon from '@material-ui/core/Icon';
-import './Playlist.css'
+
 
 class Playlist extends Component {
   constructor(props) {
@@ -8,16 +8,15 @@ class Playlist extends Component {
     this.state = {};
   }
   render() {
-const {songPlaylist, deleteSongFromPlaylist, index } = this.props
+    const { songPlaylist, deleteSongFromPlaylist, index } = this.props;
 
-   return (
+    return (
       <tr>
         <td>{songPlaylist.name}</td>
         <td>{songPlaylist.artiste}</td>
-        <td> <Icon onClick={() => {deleteSongFromPlaylist(index)}}> clear </Icon></td>
-     
+        <td><Icon onClick={() => { deleteSongFromPlaylist(index) }}>clear</Icon>
+        </td>
       </tr>
-      
     );
   }
 }

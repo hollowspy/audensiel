@@ -64,7 +64,7 @@ class Prime extends Component {
   render() {
     const { classes } = this.props;
     return (
-      <div>
+      <div className="containerBody">
         <Grid container spacing={24}>
           <Grid item xs={12}>
             <Paper className={classes.paper}>

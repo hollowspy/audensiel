@@ -1,3 +1,8 @@
+.containerBody{
+  width:95%;
+  margin:auto;
+}
+
 .tableau{
   border:2px red solid;
   border-collapse: collapse;
